@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DicodingApp/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DicodingApp from './components/DicodingApp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DicodingApp
   }
 }
 </script>

@@ -1,4 +1,4 @@
-# vue-first-app
+# dicoding_part_1
 
 ## Project setup
 ```
