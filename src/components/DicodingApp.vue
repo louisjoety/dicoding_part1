@@ -1,11 +1,11 @@
 <template>
   <div class="course-search">
-    <input v-model="searchQuery" placeholder="Search courses..." />
+    <input v-model="searchQuery" placeholder="Search" />
     <ul>
       <li v-for="course in filteredCourses" :key="course.id">
         <h3>{{ course.name }}</h3>
         <p>{{ course.summary }}</p>
-        <a :href="course.course_link" target="_blank" rel="noopener">Learn More</a>
+        <a :href="course.course_link" target="_blank" rel="noopener">Course Link</a>
       </li>
     </ul>
   </div>
@@ -34,7 +34,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Add your component-specific styles here */
-</style>
